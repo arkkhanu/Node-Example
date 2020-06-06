@@ -1,0 +1,30 @@
+{
+	"name": "completenodeexample",
+	"version": "1.0.0",
+	"description": "An example of Node Rest APi",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"keywords": [
+		"node",
+		"rest",
+		"api"
+	],
+	"author": "ArkH",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^4.0.1",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mkdirp": "^1.0.3",
+		"mongoose": "^5.9.7",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
+}

@@ -1,0 +1,27 @@
+
+// Create a Subscriber
+# POST  http://localhost:4000/subscriber/create/
+# Content-Type: application/json
+
+# {
+#     "name":"Hel",
+#     "subscribedChannel": "Hello World4"
+# }
+
+// Get All Subscriber
+GET http://localhost:4000/subscribers/
+
+// Get Specific Subscriber by Id
+# GET http://localhost:4000/subscribers/get/5e6a5fa9217d6a34844bdbb5
+
+// Delete 
+
+# DELETE  http://localhost:4000/subscribers/delete/5e6a5fa9217d6a34844bdbb5
+
+# Update
+# PATCH  http://localhost:4000/subscribers/update/5e6a50e58fff9926842d4ffb
+# Content-Type: application/json
+
+# {
+#     "name":"Abdul Rehman"
+# }
